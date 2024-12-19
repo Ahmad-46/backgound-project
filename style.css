@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(119, 118, 122);
+    background-image: url("images.jpeg");
+    background-image: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+
+
+}
+
+#gradient {
+    margin-top: 100px;
+    height: 200px;
+    background: linear-gradient(to left, green, white, Black, yellow, cyan, blue);
+}
+
+/* The animation code */
+@keyframes example {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
+
+/* The element to apply the animation to */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
